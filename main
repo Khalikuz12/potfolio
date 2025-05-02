@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohd Khalikuz Zama | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #f4f4f5;
+      color: #111;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header {
+      background: url('https://i.extremetech.com/imagery/content-types/032oj6t7fD3rafBJOIbHgPw/hero-image.fit_lim.size_1600x900.v1727420666.png') center/cover no-repeat;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      border-radius: 10px;
+      position: relative;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    header p {
+      font-size: 1.2rem;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+    }
+    section {
+      background: white;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h1, h2, h3 {
+      color: #333;
+    }
+    a {
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+    .contact p {
+      margin: 5px 0;
+    }
+      @keyframes glitter {
+      0% { background-position: 0 0; }
+      100% { background-position: 200% 0; }
+    }
+    .glitter-text {
+      background: linear-gradient(90deg, #fff, #f0f, #0ff, #fff);
+      background-size: 200% auto;
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      animation: glitter 3s linear infinite;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <video autoplay muted loop playsinline style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; border-radius:10px; z-index:0;">
+      <source src="https://cdn.coverr.co/videos/coverr-nebula-in-space-1440p.mp4" type="video/mp4">
+    </video>
+    <h1 class="glitter-text" style="position: relative; z-index: 1;">Mohd Khalikuz Zama</h1>
+    <p style="position: relative; z-index: 1;">B.Tech in Computer Science Engineering | Aspiring Cloud & ML Developer</p>
+      <div style="position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); border-radius:10px; z-index:0;"></div>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I am a Computer Science student at Graphic Era Hill University, deeply passionate about Cloud Computing, Machine Learning, and Web Development. My focus is on building efficient and secure software solutions that address real-world challenges. I aim to leverage cutting-edge technology to create innovative applications that enhance user experiences and drive positive change across various industries and sectors..</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech in CSE</strong>, GEHU (2021–2025), CGPA: 6.90</li>
+      <li><strong>12th (CBSE)</strong>, Saint James School, 78.80%</li>
+      <li><strong>10th (CBSE)</strong>, Saint James School, 62%</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Key Skills</h2>
+    <p>Cloud Computing, Web Development, DBMS, Python, System Security, Cyber Security</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <h3><a href="https://colab.research.google.com/drive/1g8GoNOQTUDgGYuzQ7wsxj3s5h_OGAdi_" target="_blank">Cancer Prediction Model</a></h3>
+    <p>Used Logistic Regression in Python to predict tumor classification with 95% accuracy using sklearn and Pandas.</p>
+
+    <h3><a href="https://github.com/Khalikuz12/Real-time-object-detection" target="_blank">Real-Time Object Detection</a></h3>
+    <p>Implemented an "invisibility cloak" effect using OpenCV, manipulating HSV frames in real-time.</p>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <p><strong>Cloud Computing Essentials</strong> – Entry-level AWS and cloud concepts certification.</p>
+  </section>
+
+  <section>
+    <h2>Extra-Curricular</h2>
+    <p>Web development, language learning, sports, and fitness.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:mohammdkhalikuzzama@gmail.com">mohammdkhalikuzzama@gmail.com</a></p>
+    <p>Email: <a href="mailto:mohdkhalikuz.zama@icloud.com">mohdkhalikuz.zama@icloud.com</a></p>
+    <p>Phone: +91-8299681167 / +91-9170754626</p>
+    <p>Location: Dehradun, Uttarakhand, India</p>
+  </section>
+</body>
+</html>
